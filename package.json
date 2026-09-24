@@ -1,0 +1,44 @@
+{
+  "name": "dsh-cron",
+  "version": "0.1.0",
+  "description": "DSH native scheduling: run a saved prompt in a brand-new session when the clock says so, with a persisted task table, run history and a restrained management UI.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipika/dsh-cron.git"
+  },
+  "homepage": "https://github.com/jipika/dsh-cron#readme",
+  "bugs": {
+    "url": "https://github.com/jipika/dsh-cron/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cron",
+    "schedule",
+    "automation",
+    "timer",
+    "task"
+  ],
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "private": true
+}
