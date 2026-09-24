@@ -1,5 +1,5 @@
 {
-  "name": "dsh-cron",
+  "name": "@jipika/dsh-cron",
   "version": "0.1.0",
   "description": "DSH native scheduling: run a saved prompt in a brand-new session when the clock says so, with a persisted task table, run history and a restrained management UI.",
   "license": "MIT",
@@ -40,5 +40,7 @@
     "README.md",
     "LICENSE"
   ],
-  "private": true
+  "publishConfig": {
+    "access": "public"
+  }
 }

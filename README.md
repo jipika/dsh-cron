@@ -31,7 +31,7 @@ dsh plugin --profile <profile> add github:jipika/dsh-cron
 # ~/.dsh/profiles/<profile>/cordis.patch.yml
 - insert:
     - id: dsh-cron
-      name: dsh-cron
+      name: @jipika/dsh-cron
 ```
 
 重启 host 进程后，host 日志里能看到路由挂载。`desktop` profile 被 Electron 独占，
