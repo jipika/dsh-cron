@@ -23,7 +23,13 @@
 
 ## 安装
 
+两种装法任选其一（都会往 profile 的 `dependencies` 加一项，再配一行 insert）：
+
 ```bash
+# ① npm（快，走 registry）
+dsh plugin --profile <profile> add @jipika/dsh-cron
+
+# ② GitHub（源码直装，跟随 main 分支）
 dsh plugin --profile <profile> add github:jipika/dsh-cron
 ```
 
